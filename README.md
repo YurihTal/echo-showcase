@@ -12,17 +12,15 @@ Tasks, notes, documents, email, calendar and contacts in one app that runs on yo
 
 ---
 
-## What it does
+## Highlights
 
-| | |
-|---|---|
-| **Capture & voice** | "Hey Jarvis" wake word, push-to-talk, quick capture (Ctrl+K), dictation in any text box, brain dump → tasks |
-| **Tasks & habits** | Projects and workspaces, board view, repeating tasks, habit streaks, reminders, undo for every change |
-| **Knowledge** | Markdown notes, search across PDF and Office files, answers that cite their sources, search everything (Ctrl+P) |
-| **Connections** | Gmail, Google Calendar, Google Drive, Notion and any MCP server; Telegram chat and voice notes; sending always asks first |
-| **People & CRM** | People and companies, timelines, follow-up reminders, deal pipeline |
-| **Planning** | Daily briefing (read aloud on request), dashboard, weekly review |
-| **Documents & tables** | New Word, Excel, PowerPoint and PDF files; grid tables with Excel / CSV export |
+- **LLM orchestration:** model router (Claude → Groq → local Ollama) with automatic fallback and budget control
+- **Agentic tool use:** MCP integrations (Gmail, Calendar, Drive, Notion) with tiered permissions, approval gates and one-click undo
+- **On-device voice:** wake word, speech-to-text (faster-whisper) and text-to-speech (Kokoro)
+- **RAG search:** semantic retrieval over notes and documents with cited sources
+- **Prompt-injection defence:** taint tracking keeps untrusted content from triggering actions
+- **Privacy-first architecture:** Tauri + React client, Python/FastAPI core and SQLite, all running locally
+- **Production engineering:** 1,900+ automated tests, gated milestones and a full audit trail
 
 ## Screens
 
